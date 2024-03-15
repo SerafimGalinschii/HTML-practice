@@ -3,15 +3,13 @@
 table{
     border-collapse: collapse;
     
-    
 }
 th{
     padding: 10px;
     background-color: blueviolet;
-
 }
-tfoot{text-align: left;}
-
+tfoot{text-align: left;
+}
 
 tr,
 td {
