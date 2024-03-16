@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: url(/img/background-proj.avif) no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding-top: 60px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0.8px 0.8px black;
+  text-transform: uppercase;
+  word-spacing: 0.3rem;
+  font-size: 1.5rem;
+}
+p {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  width: auto;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 850px) {
+  .container {
+    background: url(img-practise/jeremy-thomas-E0AHdsENmDg-unsplash_f8jpei_c_scale\w_800.jpg)
+      no-repeat;
+  }
+  h1 {
+    padding-top: 170px;
+    font-size: 4.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
